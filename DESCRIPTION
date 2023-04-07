@@ -1,0 +1,12 @@
+Package: tutorial.package
+Type: Package
+Title: Tutorial package for UT Big Data S23
+Version: 0.1.0
+Author: Peter Dunphy
+Maintainer: Peter Dunphy <dunphy@utexas.edu>
+Description: This package is a tutorial R package created within for the Making Big Data in political science course.
+License: GPL (>= 2)
+Encoding: UTF-8
+LazyData: true
+Depends: 
+    R (>= 2.10)
