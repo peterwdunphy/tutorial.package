@@ -28,13 +28,9 @@ GetDataAsset <- function() {
 # Call function and assign result to object
 PackageDataAsset <- GetDataAsset()
 
-# Assign object to name and save in data folder
-save(PackageDataAsset, file = "data/PackageDataAsset.rda", version = 3)
+# Save object to .rda file in data folder
+save(PackageDataAsset, file = "data/PackageDataAsset.rda", version=3)
 
-# Add object to search path and assign name
-data(PackageDataAsset, package = "tutorial.package")
-
-
-
-
+# Use data() function to add object to package
+data(PackageDataAsset)
 
