@@ -13,5 +13,5 @@ Data stored in the Dropbox link in the environment. Currently, the link contains
 A function that has no inputs that will download the dataset stored in the Dropbox link: https://www.dropbox.com/s/5mzc60tbh09ew49/lalonde%20nsw.csv.zip?dl=0. The function will download, unzip, and load the dataset into the R session, while removing the downloaded file from disk.
 }
 \examples{
-GetDataAsset()
+data <- GetDataAsset()
 }

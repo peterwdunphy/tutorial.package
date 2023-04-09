@@ -28,10 +28,8 @@ GetDataAsset <- function() {
 # Call function and assign result to object
 PackageDataAsset <- GetDataAsset()
 
-# Save object to .rda file in data folder
-saveRDS(PackageDataAsset, file = "data/PackageDataAsset.rda")
+## Save object to .rda file in data folder
+save(PackageDataAsset, file = "data/PackageDataAsset.rda", version = 3)
 
 # Use data() function to add object to package
 data(PackageDataAsset)
-
-data(PackageDataAsset, package = "tutorial.package")
