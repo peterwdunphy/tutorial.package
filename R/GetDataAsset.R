@@ -1,4 +1,6 @@
-#' A function that has no inputs that will download the dataset stored in the Dropbox link: https://www.dropbox.com/s/5mzc60tbh09ew49/lalonde%20nsw.csv.zip?dl=0. The function will download, unzip, and load the dataset into the R session, while removing the downloaded file from disk.
+#'  @Description
+#' A function that has no inputs that will download the dataset stored in the Dropbox link
+#'  The function will download, unzip, and load the dataset into the R session, while removing the downloaded file from disk.
 #'
 #' @returns Data stored in the Dropbox link in the environment. Currently, the link contains the data used in the paper Robert Lalonde, "Evaluating the Econometric Evaluations of Training Programs," American Economic Review, Vol. 76, pp. 604-620.
 #'
@@ -34,5 +36,5 @@ PackageDataAsset <- GetDataAsset()
 save(PackageDataAsset, file = "data/PackageDataAsset.rda", version=3)
 
 # Load data from the package
-load(system.file("data/PackageDataAsset.rda", package = "tutorial.package"))
+data(PackageDataAsset)
 

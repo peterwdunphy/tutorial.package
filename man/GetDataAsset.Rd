@@ -2,7 +2,9 @@
 % Please edit documentation in R/GetDataAsset.R
 \name{GetDataAsset}
 \alias{GetDataAsset}
-\title{A function that has no inputs that will download the dataset stored in the Dropbox link: https://www.dropbox.com/s/5mzc60tbh09ew49/lalonde%20nsw.csv.zip?dl=0. The function will download, unzip, and load the dataset into the R session, while removing the downloaded file from disk.}
+\title{@Description
+A function that has no inputs that will download the dataset stored in the Dropbox link
+ The function will download, unzip, and load the dataset into the R session, while removing the downloaded file from disk.}
 \usage{
 GetDataAsset()
 }
@@ -10,7 +12,9 @@ GetDataAsset()
 Data stored in the Dropbox link in the environment. Currently, the link contains the data used in the paper Robert Lalonde, "Evaluating the Econometric Evaluations of Training Programs," American Economic Review, Vol. 76, pp. 604-620.
 }
 \description{
-A function that has no inputs that will download the dataset stored in the Dropbox link: https://www.dropbox.com/s/5mzc60tbh09ew49/lalonde%20nsw.csv.zip?dl=0. The function will download, unzip, and load the dataset into the R session, while removing the downloaded file from disk.
+@Description
+A function that has no inputs that will download the dataset stored in the Dropbox link
+ The function will download, unzip, and load the dataset into the R session, while removing the downloaded file from disk.
 }
 \examples{
 data <- GetDataAsset()
