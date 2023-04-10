@@ -33,5 +33,5 @@ PackageDataAsset <- GetDataAsset()
 save(PackageDataAsset, file = "data/PackageDataAsset.rda", version=3)
 
 # Use data() function to add object to package
-data(PackageDataAsset)
+data("PackageDataAsset")
 
