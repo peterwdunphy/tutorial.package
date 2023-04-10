@@ -22,6 +22,7 @@
 #' # Check the result
 #' print(x_test)
 #' # Output: [1] 1 2 3 4 5 6 7 8 9 10
+#' @export
 
 AnalysisFunction <- function(x, training) {
   if (training) {

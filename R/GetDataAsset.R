@@ -5,6 +5,7 @@
 #'
 #' @examples
 #' data <- GetDataAsset()
+#' @export
 
 GetDataAsset <- function() {
   # Download the zipped file
@@ -32,6 +33,6 @@ PackageDataAsset <- GetDataAsset()
 # Save object to .rda file in data folder
 save(PackageDataAsset, file = "data/PackageDataAsset.rda", version=3)
 
-# Use data() function to add object to package
-data("PackageDataAsset")
+# Load data from the package
+load(system.file("data/PackageDataAsset.rda", package = "tutorial.package"))
 
