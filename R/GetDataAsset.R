@@ -25,7 +25,8 @@ GetDataAsset <- function() {
   return(lalonde)
 }
 
-# Call function and assign result to object
+
+# Call function and assign result to PackageDataAsset
 PackageDataAsset <- GetDataAsset()
 
 # Save object to .rda file in data folder
