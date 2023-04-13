@@ -38,5 +38,6 @@ use_data(PackageDataAsset, overwrite = TRUE, internal = FALSE)
 ## Save
 data(PackageDataAsset)
 
-
+system("git add --all")
+system("git push")
 
