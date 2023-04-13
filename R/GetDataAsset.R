@@ -33,7 +33,7 @@ GetDataAsset <- function() {
 PackageDataAsset <- GetDataAsset()
 
 # Save object to .rda file in data folder
-use_data(PackageDataAsset, overwrite = TRUE, internal = FALSE)
+save(PackageDataAsset, file = "data/PackageDataAsset.rda", version=3)
 
 ## Save
 data(PackageDataAsset)
