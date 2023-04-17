@@ -33,7 +33,7 @@ GetDataAsset <- function() {
 
 # Save object to .rda file in data folder
 #save(PackageDataAsset, file = "data/PackageDataAsset.Rdata", version=3)
-#save("PackageDataAsset", file = "./data/PackageDataAsset.Rdata", version=3)
+#save(list = ("PackageDataAsset"), file = "./data/PackageDataAsset.Rdata", version=3)
 
 ## Save
 #data(PackageDataAsset)
