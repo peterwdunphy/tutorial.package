@@ -29,13 +29,13 @@ GetDataAsset <- function() {
 }
 
 # Call function and assign result to PackageDataAsset
-PackageDataAsset <- GetDataAsset()
+#PackageDataAsset <- GetDataAsset()
 
 # Save object to .rda file in data folder
-save(PackageDataAsset, file = "data/PackageDataAsset.Rdata", version=3)
+#save(PackageDataAsset, file = "data/PackageDataAsset.Rdata", version=3)
 
 ## Save
-data(PackageDataAsset)
+#data(PackageDataAsset)
 
 # devtools::document()
 # devtools::document()
