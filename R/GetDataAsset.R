@@ -36,3 +36,6 @@ GetDataAsset <- function() {
 
 ## Save
 #data(PackageDataAsset)
+
+# devtools::document()
+# devtools::document()
