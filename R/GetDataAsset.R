@@ -28,7 +28,6 @@ GetDataAsset <- function() {
   return(lalonde)
 }
 
-
 # Call function and assign result to PackageDataAsset
 PackageDataAsset <- GetDataAsset()
 
