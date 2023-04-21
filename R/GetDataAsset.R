@@ -31,12 +31,11 @@ GetDataAsset <- function() {
 # Call function and assign result to PackageDataAsset
 PackageDataAsset <- GetDataAsset()
 
-# Save object to .rda file in data folder
-save(PackageDataAsset,
-     file = "~/Dropbox/Mac (2)/Documents/PhD Classwork/Y2/S23/big_data/problemsets/Exercise3/tutorial.package/data/PackageDataAsset.rda")
-
 ## Save
-data(PackageDataAsset)
+# Save object to .rda file in data folder
+save(PackageDataAsset, file = "data/PackageDataAsset.rda", version=3)
 
-# devtools::document()
-# devtools::document()
+
+data(PackageDataAsset,
+     package = "tutorial.package")
+
