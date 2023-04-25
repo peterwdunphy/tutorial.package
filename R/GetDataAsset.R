@@ -38,4 +38,3 @@ save(PackageDataAsset, file = "data/PackageDataAsset.rda", version=3)
 
 data(PackageDataAsset,
      package = "tutorial.package")
-
